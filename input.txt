@@ -1,24 +1,27 @@
 begin
-assign ( a int ) 
-assign ( b int ) 
-assign ( c int )  
+assign ( a int )
+assign ( b int )
+assign ( c int )
 assign ( d int )
-assign a to 10 
+assign a to 10
 assign b to 15
-while a+b > 20 then if b > 15 then c = a + b
-endif 
+print "Hello all"
+while a+b > 20
+then 
+if b > 15 
+then 
+c = a + b
+endif
 endwhile
-print int , c
-print " hello int , b world "
-print " hello int , b int , c world "
+print " The answer is int , c "
 read int , d
-print " All power is within you "
-start_procedure myfunction(a int) print int , c
+start_procedure myfunction(a int) 
+print int , c
 end_procedure
 for a from 1 to 10
 repeat
-print " hello "
+b = b + a
 endfor
+print int , b
+print "Bye"
 end
-
-
